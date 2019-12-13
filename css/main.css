@@ -2,7 +2,7 @@ body {
   background-color: #fdf6e3;
 }
 
-header,footer {
+header, footer {
   font-size: 1.5rem;
 }
 
@@ -28,4 +28,16 @@ nav ul {
 
 p + strong {
   color: #fff;
+}
+
+a:not(.no-highlight) {
+  background-color: #719e07;
+}
+
+[rel="external"] {
+  background-color: #2694d8;
+}
+
+ol > li:first-of-type {
+  color: #719e47;
 }
